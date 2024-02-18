@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Starface",
-            path: "Sources/Starface.xcframework"
+            path: "Sources/StarfaceFramework.xcframework"
         )
     ]
 )

@@ -1,0 +1,11 @@
+framework module StarfaceFramework {
+  umbrella header "StarfaceFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module StarfaceFramework.Swift {
+  header "StarfaceFramework-Swift.h"
+  requires objc
+}

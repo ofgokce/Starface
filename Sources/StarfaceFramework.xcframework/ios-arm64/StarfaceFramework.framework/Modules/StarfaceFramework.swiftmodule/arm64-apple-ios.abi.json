@@ -1,0 +1,955 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Starface",
+        "printedName": "Starface",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "standard",
+            "printedName": "standard",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Starface",
+                "printedName": "StarfaceFramework.Starface",
+                "usr": "s:17StarfaceFramework0A0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17StarfaceFramework0A0C8standardACvpZ",
+            "mangledName": "$s17StarfaceFramework0A0C8standardACvpZ",
+            "moduleName": "StarfaceFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Starface",
+                    "printedName": "StarfaceFramework.Starface",
+                    "usr": "s:17StarfaceFramework0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17StarfaceFramework0A0C8standardACvgZ",
+                "mangledName": "$s17StarfaceFramework0A0C8standardACvgZ",
+                "moduleName": "StarfaceFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17StarfaceFramework0A0C5setup6apiKeyySS_tF",
+            "mangledName": "$s17StarfaceFramework0A0C5setup6apiKeyySS_tF",
+            "moduleName": "StarfaceFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addStarInterface",
+            "printedName": "addStarInterface()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17StarfaceFramework0A0C16addStarInterfaceyyF",
+            "mangledName": "$s17StarfaceFramework0A0C16addStarInterfaceyyF",
+            "moduleName": "StarfaceFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17StarfaceFramework0A0C",
+        "mangledName": "$s17StarfaceFramework0A0C",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StarfaceFramework"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/RoutingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1982,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/StringExt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/StringExt.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UIImageExt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 186,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UIImageExt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 197,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UIImageExt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 539,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UIImageExt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UIImageExt.swift",
+      "kind": "BooleanLiteral",
+      "offset": 689,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UIImageExt.swift",
+      "kind": "FloatLiteral",
+      "offset": 696,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewModel.swift",
+      "kind": "Array",
+      "offset": 850,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1988,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2031,
+      "length": 14,
+      "value": "\"Sky is full!\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2174,
+      "length": 93,
+      "value": "\"\nCurrently in the sky: \n\t\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2258,
+      "length": 6,
+      "value": "\"\n\t\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2266,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2283,
+      "length": 95,
+      "value": "\"Total of \""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2342,
+      "length": 5,
+      "value": "\" stars are shining bright and well.\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 32,
+      "value": "\"full_sky_notification_category\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 31,
+      "value": "\"clean_sky_notification_action\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 23,
+      "value": "\"full_sky_notification\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 667,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2265,
+      "length": 25,
+      "value": "\"Tap this to remove them\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "Array",
+      "offset": 2526,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2693,
+      "length": 31,
+      "value": "\"You've left stars in the sky!\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3024,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3734,
+      "length": 31,
+      "value": "\"Blindly removed all the stars\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3802,
+      "length": 41,
+      "value": "\"Coming back to the app to see the stars\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/NotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 19,
+      "value": "\"StarfaceFramework.NotificationManager\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 10,
+      "value": "\"Starface\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 8,
+      "value": "\"apiKey\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 598,
+      "length": 7,
+      "value": "\"stars\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "Array",
+      "offset": 621,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 644,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 746,
+      "length": 57,
+      "value": "\"SomeApiKeyWhichWouldBeCheckedProbablyViaSomeRestRequest\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 109,
+      "value": "\"https:\/\/img.etimg.com\/thumb\/msid-72948091,width-650,imgsize-95069,,resizemode-4,quality-100\/star_istock.jpg\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1131,
+      "length": 110,
+      "value": "\"Starface has been set up with api key \"\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
+      "length": 1,
+      "value": "\"\", access has\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1215,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1220,
+      "length": 6,
+      "value": "\" not\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1227,
+      "length": 4,
+      "value": "\" been granted\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Managers\/ResourceManager.swift",
+      "kind": "Array",
+      "offset": 1377,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Starface.swift",
+      "kind": "StringLiteral",
+      "offset": 1368,
+      "length": 45,
+      "value": "\"Access is not granted to add star interface\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UserDefault.swift",
+      "kind": "BooleanLiteral",
+      "offset": 592,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UserDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 1034,
+      "length": 68,
+      "value": "\"Unable to read user defaults for key `\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UserDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 1079,
+      "length": 1,
+      "value": "\"` with error: \""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UserDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UserDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 1460,
+      "length": 68,
+      "value": "\"Unable to read user defaults for key `\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UserDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 1505,
+      "length": 1,
+      "value": "\"` with error: \""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Utilities\/UserDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 1527,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Models\/Star.swift",
+      "kind": "StringLiteral",
+      "offset": 1266,
+      "length": 11,
+      "value": "\"star.fill\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Models\/Star.swift",
+      "kind": "StringLiteral",
+      "offset": 1430,
+      "length": 72,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Models\/Star.swift",
+      "kind": "StringLiteral",
+      "offset": 1450,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Models\/Star.swift",
+      "kind": "StringLiteral",
+      "offset": 1473,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Models\/Star.swift",
+      "kind": "StringLiteral",
+      "offset": 1501,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Models\/Star.swift",
+      "kind": "FloatLiteral",
+      "offset": 1614,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Models\/Star.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1644,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Models\/Star.swift",
+      "kind": "StringLiteral",
+      "offset": 1742,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Models\/Star.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2275,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Models\/Star.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2319,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 235,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 435,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 467,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 529,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 779,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1021,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1080,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1324,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1383,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1538,
+      "length": 12,
+      "value": "\"gobackward\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1623,
+      "length": 8,
+      "value": "\" Reset\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1750,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 6,
+      "value": "\"plus\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
+      "length": 13,
+      "value": "\" Small Star\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2206,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2286,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2445,
+      "length": 6,
+      "value": "\"plus\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2526,
+      "length": 11,
+      "value": "\" Big Star\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2658,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2738,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2895,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3012,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3352,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3617,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4282,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4628,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5056,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7237,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7317,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7398,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ofgokce\/Documents\/GitHub.noSync\/Starface\/StarfaceFramework\/StarfaceFramework\/Interface\/StarfaceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 22,
+      "value": "\"StarfaceFramework.StarfaceViewController\""
+    }
+  ]
+}
